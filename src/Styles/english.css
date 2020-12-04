@@ -1,0 +1,18 @@
+#eng_banner{
+    background-color: aliceblue;
+    padding: 40px 20px;
+}
+
+
+
+
+
+
+/* for mobile screens */
+@media only screen and (max-width: 750px) {
+    #eng_banner{
+        background-color: aliceblue;
+        padding: 25px 20px;
+    }
+    
+}

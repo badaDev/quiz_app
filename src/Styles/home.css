@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#home{
+     background-image: url('../assets/images/home_bg.jpg');
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+     width: 100vw;
+     display: flex;
+     justify-content: space-around;
+}
+
+.myLogo{
+    width: 50%;
+}
+
+.home_list{
+    list-style: none;
+    display: inline-block;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 80%;
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.heading{
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 5%;
+    font-family: 'Wendy One', sans-serif;
+}
+
+.quiz-btn{
+    width: 50%;
+    margin-top: 9%;
+    border-radius: 30px;
+    border: none;
+    background-color: #57b846;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
+}
+
+.quiz-btn:hover{
+    background-color: #8adf7c !important;
+}
+
+.login-btn{
+    background-color: #e84355;
+    border: none;
+    border-radius: 30px;
+    width: 10rem;
+    margin: 35px 10px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
+}
+
+.login-btn:hover{
+    background-color: #e66675;
+}
+
+.signup-btn{
+    background-color: rgb(71, 195, 236);
+    border: none;
+    border-radius: 30px;
+    width: 10rem;
+    margin: 35px 0px 0px 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.7);
+}
+
+.signup-btn:hover{
+    background-color: rgb(112, 208, 240);;
+}
+
+.modal-instructions{
+    list-style-type: disc !important;
+    font-family: 'Roboto Slab', serif;
+}
+.modal-head{
+    font-family: 'Anton';
+}
+
+
+
+
+
+/* for mobile screens */
+@media only screen and (max-width: 750px) {
+    section{
+        background-color: rgba(0, 0, 0, 0.7);
+        height: 60%;
+        width: 50%;
+        text-align: center;
+        margin-top: 20%;
+        padding-top: 5%;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .home_list{
+        list-style: none;
+        display: block;
+    }
+
+    .quiz-btn{
+        font-size: 0.8rem;
+        width: 80%;
+        
+    }
+
+    .login-btn{
+      font-size: 0.8rem;
+      margin: 35px auto;
+      width: 80%;
+    }
+
+    .signup-btn{
+        font-size: 0.8rem;
+        margin: 35px auto;
+        width: 80%;
+    }
+}
+
