@@ -9,7 +9,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      English: [
+      English_Questions: [
         {
             question: `1. Choose the word that best describes the meaning of the underlined words 'In the match against the uplanders team, the sub mariners turned out to be the <u>dark horse</u>'`, 
             optionA: "played most brilliantly", 
@@ -103,6 +103,8 @@ class App extends Component {
   }
 
   render() {
+    // const { English } = this.state;
+
     return (
       <Router>
         <Route exact path="/" component={Home} />

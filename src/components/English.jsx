@@ -1,23 +1,158 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import M from 'materialize-css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Modal, Button } from 'react-bootstrap'
-import '../Styles/english.css'
-import '../assets/fonts/fonts.css'
-import badaDev from '../assets/images/badaDev.png'
-import '../assets/font_awesome/css/font-awesome.min.css'
+import { Modal, Button } from 'react-bootstrap';
+import '../Styles/english.css';
+import '../assets/fonts/fonts.css';
+import badaDev from '../assets/images/badaDev.png';
+import '../assets/font_awesome/css/font-awesome.min.css';
+import english from './questions/english.json';
+// import isEmpty from '../utils/is-empty.js';
 
 class English extends React.Component {
     constructor(props) {
         super(props)
     
         this.state = {
-             
+            english,
+            currentQuestion: {},
+            nextQuestion: {},
+            prevQuestion: {},
+            answer: "",
+            numberofQuestion: 0,
+            numberofAnsweredQuestions: 0,
+            currentQuestionIndex: 0,
+            score: 0,
+            correctAnswer: 0,
+            wrongAnswers: 0,
+            timer: {}
+       }
+    }
+    
+    // isEMpty = (value) => {
+    //    if (value === undefined ||
+    //     value === null ||
+    //     (typeof value === Object && Object.keys(value).length === 0) ||
+    //     (typeof value === String && value.trim().length === 0));
+    // }
+
+    displayQuestions = (english = this.state.english, currentQuestion, nextQuestion, prevQuestion) => {
+        //destructure the currentQuestionIndex
+        let { currentQuestionIndex } = this.state;
+        //check if our question array is empty
+        if (this.state.english !== undefined || this.state.english !== null || (typeof this.state.english !== Object
+            && Object.keys(this.state.english).length !== 0) || (typeof this.state.english !== String
+                && this.state.english.trim().length !== 0)) {
+            english = this.state.english;
+            currentQuestion = english[currentQuestionIndex];
+            nextQuestion = english[currentQuestionIndex + 1];
+            prevQuestion = english[currentQuestionIndex - 1];
+            const answer = currentQuestion.answer;
+            //now we want to update our state
+            this.setState({
+                currentQuestion,
+                nextQuestion,
+                prevQuestion,
+                numberofQuestion: english.length,
+                answer
+            })
+        }
+    };
+    componentDidMount() {
+        const { english, currentQuestion, nextQuestion, prevQuestion } = this.state;
+        this.displayQuestions(english, currentQuestion, nextQuestion, prevQuestion);
+    };
+/*because this fxn was called as an event handler it has access to the event that was 
+  called so we just put in the parameter "e" */ 
+    handleOptionClicked = (e) => {
+        if (e.target.innerHTML.toLowerCase() === this.state.answer.toLocaleLowerCase()) {
+            this.correctAnswer();
+        } else {
+            this.wrongAnswer();
         }
     }
 
+    //next button function
+    handleNextButton = () => {
+        if (this.state.nextQuestion !== undefined) {
+            this.setState(prevState => ({
+                currentQuestionIndex: prevState.currentQuestionIndex + 1
+            }), () => {
+                this.displayQuestions(
+                    this.state.english, 
+                    this.state.currentQuestion, 
+                    this.state.nextQuestion, 
+                    this.state.prevQuestion); //calling this fxn here will display the next question
+            }); 
+        }
+    }
+
+    //previous button function
+    handlePrevButton = () => {
+        if (this.state.prevQuestion !== undefined) {
+            this.setState(prevState => ({
+                currentQuestionIndex: prevState.currentQuestionIndex - 1
+            }), () => {
+                this.displayQuestions(
+                    this.state.english, 
+                    this.state.currentQuestion, 
+                    this.state.nextQuestion, 
+                    this.state.prevQuestion); //calling this fxn here will display the next question
+            }); 
+        }
+    }
+
+    //once the quit button is clicked it should take the user back to the homepage
+    handleQuitButton =() => {
+        if (window.confirm('Are you sure you want to quit?')) {
+            this.props.history.push('/');
+        }
+    } 
+
+    correctAnswer = () => {
+        M.toast({
+            html: 'Correct Answer',
+            classes: 'toast-valid',
+            displayLenght: 2000
+        });
+        this.setState(prevState => ({
+            score: prevState.score + 1,
+            correctAnswer: prevState.correctAnswer + 1,
+            currentQuestionIndex: prevState.currentQuestionIndex + 1,
+            numberofAnsweredQuestions: prevState.numberofAnsweredQuestions + 1
+        }), () => {
+            this.displayQuestions(
+                this.state.english, 
+                this.state.currentQuestion, 
+                this.state.nextQuestion, 
+                this.state.prevQuestion); //calling this fxn here will display the next question
+        });
+    }
+
+    wrongAnswer = () => {
+        navigator.vibrate(1000);
+        M.toast({
+            html: 'Wrong Answer',
+            classes: 'toast-invalid',
+            displayLenght: 2000
+        });
+        this.setState(prevState => ({
+            wrongAnswers: prevState.correctAnswers + 1,
+            currentQuestionIndex: prevState.currentQuestionIndex + 1,
+            numberofAnsweredQuestions: prevState.numberofAnsweredQuestions + 1
+        }), () => {
+            this.displayQuestions(
+                this.state.english, 
+                this.state.currentQuestion, 
+                this.state.nextQuestion, 
+                this.state.prevQuestion); //calling this fxn here will display the next question
+        });
+    }
+
     render() {
+        const { currentQuestion, currentQuestionIndex } = this.state;
         return (
             <div>
                 <Helmet><title>badaDev Quiz Portal</title></Helmet>
@@ -31,7 +166,7 @@ class English extends React.Component {
                             </div>
 
                             <div className="col-md-6">
-                                <h1 className="heading_2">Quiz Portal</h1>
+                                <h1 className="heading_3">Quiz Portal</h1>
                             </div>
                         </div>
                     </div>
@@ -40,48 +175,53 @@ class English extends React.Component {
                         <div className="container-fluid lifeline">
                             <div className="row">
                                 <div className="col-6">
-                                    <span className="fa fa-adjust fifty_fifty">2</span>
+                                    <span className="no_of-ques text-success">{currentQuestionIndex + 1} of 10</span>
                                 </div>
 
                                 <div className="col-6 text-right">
-                                    <span className="fa fa-lightbulb-o">2</span>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-6">
-                                    <span className="no_of-ques">10</span>
-                                </div>
-
-                                <div className="col-6 text-right">
-                                    <span className="timer"></span>
+                                    <span className="fa fa-clock-o timer text-success">3</span>
                                 </div>
                             </div>
                         </div>
-                        <div className="questions_container">
-                            <h5>
-                                1. Choose the word that best describes the meaning of the underlined words 
-                                'In the match against the uplanders 
-                                team, the sub mariners turned out to be the <u>dark horse</u>
+                        <div className="container-fluid questions_container">
+                            <h5 className="text-muted">
+                                {currentQuestion.question}
                             </h5>
                         </div>
-                        <div className="container-fluid ">
+                        <div className="container-fluid options-container">
                             <div className="row">
                                 <div className="col-md-6 options_container">
-                                    <p className="">played most brilliantly</p>
-                                    <p className="">played below their usual form</p>
+                                    <Button onClick={this.handleOptionClicked} className="options d-block w-75 mx-auto my-2">
+                                        {currentQuestion.optionA}
+                                    </Button>
+                                    <Button onClick={this.handleOptionClicked} className="options d-block w-75 mx-auto my-2">
+                                        {currentQuestion.optionB}
+                                    </Button>
                                 </div>
                                 <div className="col-md-6 options_container">
-                                    <p className="">won unexpectedly</p>
-                                    <p className="">lost as expected</p>
+                                    <Button onClick={this.handleOptionClicked} className="options d-block w-75 mx-auto my-2">
+                                        {currentQuestion.optionC}
+                                    </Button>
+                                    <Button onClick={this.handleOptionClicked} className="options d-block w-75 mx-auto my-2">
+                                        {currentQuestion.optionD}
+                                    </Button>
                                 </div>
                             </div>
-                            <div className="row btn-container">
-                                <Button>Previous</Button>
-                                <Button>Next</Button>
-                                <Button>Quit</Button>
+                            <div className="row btn-container mt-3">
+                                <Button className="bg-secondary ml-3" onClick={this.handlePrevButton}>Previous</Button>
+                                <Button className="bg-success ml-3" onClick={this.handleNextButton}>Next</Button>
+                                <Button className="bg-danger ml-3" onClick={this.handleQuitButton}>Quit</Button>
                             </div>
                         </div>
                     </div>
+
+                    <footer className="container-fluid eng-footer">
+                        <div className="row">
+                            <div className="col-12 text-right">
+                                <span className="fa fa-copyright">Designed by badaDev</span>
+                            </div>
+                        </div>
+                    </footer>
 
 
                 </div>
@@ -90,5 +230,7 @@ class English extends React.Component {
     }
     
 }
+
+
 
 export default English;

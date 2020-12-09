@@ -56,8 +56,7 @@ class Subjects extends React.Component {
                                                         <Button onClick={() => {this.closeModal()}}>&times;</Button>
                                                 </Modal.Header>
                                                 <Modal.Body>
-                                                    <p>You have 10 minutes to finish this quiz</p>
-                                                    <p>You have two 50/50 lifelines "this takes away two incorrect answers from the options"</p>
+                                                    <p>You have 3 minutes to finish this quiz</p>
                                                 </Modal.Body>
                                                 <Modal.Footer>
                                                     <Link  to="/english">
