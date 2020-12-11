@@ -59,14 +59,28 @@ class Subjects extends React.Component {
                                                     <p>You have 3 minutes to finish this quiz</p>
                                                 </Modal.Body>
                                                 <Modal.Footer>
-                                                    <Link  to="/english">
+                                                    <Link  to="/components/english">
                                                         <Button>Start Quiz</Button>
                                                     </Link>
                                                 </Modal.Footer>
                                             </Modal>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/mathematics" className="subject_link">Mathematics</Link>
+                                            <Link className="subject_link" onClick={() => {this.handleModal()}}>Mathematics</Link>
+                                            <Modal show={this.state.show}>
+                                                <Modal.Header>
+                                                        <h3 className="modal-head">Instructions</h3>
+                                                        <Button onClick={() => {this.closeModal()}}>&times;</Button>
+                                                </Modal.Header>
+                                                <Modal.Body>
+                                                    <p>You have 10 minutes to finish this quiz</p>
+                                                </Modal.Body>
+                                                <Modal.Footer>
+                                                    <Link  to="/components/mathematics">
+                                                        <Button>Start Quiz</Button>
+                                                    </Link>
+                                                </Modal.Footer>
+                                            </Modal>
                                         </li>
                                         <li className="subject_list">
                                             <Link to="/physics" className="subject_link">Physics</Link>
@@ -80,7 +94,21 @@ class Subjects extends React.Component {
                                 <div className="col-md-4">
                                     <ul>
                                         <li className="subject_list">
-                                            <Link to="/chemistry" className="subject_link">Chemistry</Link>
+                                            <Link onClick={() => {this.handleModal()}} className="subject_link">Chemistry</Link>
+                                            <Modal show={this.state.show}>
+                                                <Modal.Header>
+                                                        <h3 className="modal-head">Instructions</h3>
+                                                        <Button onClick={() => {this.closeModal()}}>&times;</Button>
+                                                </Modal.Header>
+                                                <Modal.Body>
+                                                    <p>You have 5 minutes to finish this quiz</p>
+                                                </Modal.Body>
+                                                <Modal.Footer>
+                                                    <Link  to="/components/chemistry">
+                                                        <Button>Start Quiz</Button>
+                                                    </Link>
+                                                </Modal.Footer>
+                                            </Modal>
                                         </li>
                                         <li className="subject_list">
                                             <Link to="/literature" className="subject_link">Literature in English</Link>
@@ -116,7 +144,8 @@ class Subjects extends React.Component {
                         <footer className="container-fluid footer">
                             <div className="row">
                                 <div className="col-12 text-right">
-                                    <span className="fa fa-copyright">Designed by badaDev</span>
+                                    <span className="fa fa-copyright"></span>
+                                    <span className="text">Designed by badaDev</span>
                                 </div>
                             </div>
                         </footer>

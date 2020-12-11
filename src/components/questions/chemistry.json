@@ -1,0 +1,82 @@
+[
+    {
+        "question": "1. How many moles HCL will be required to react with potassium heptaoxodichromate (VI) to produce 3 moles of chlorine?", 
+        "optionA": "14", 
+        "optionB": "12", 
+        "optionC": "11",
+        "optionD": "10",
+        "answer": "14"
+    },
+    {
+        "question": "2. Which of the following noble gases is commonly found in the atmosphere?", 
+        "optionA": "Xenon", 
+        "optionB": "Neon", 
+        "optionC": "Helium",
+        "optionD": "Argon",
+        "answer": "Argon" 
+    },
+    {
+        "question": "3. An efflorescent compound is a substance that?",
+        "optionA": "absorbs water froom the air without dissolving in i",
+        "optionB": "is capable of giving off coloured luminosity",
+        "optionC": "gives out water to the atmosphere",
+        "optionD": "gives out its water of crystallization on heating",
+        "answer": "gives out water to the atmosphere"
+    },
+    {
+        "question": "4. A molar solution of caustic soda is prepared by dissolving",
+        "optionA": "40 g NaOH in 100 g of water",
+        "optionB": "40 g NaOH in 1000 g of water",
+        "optionC": "20 g NaOH in 500 of solution",
+        "optionD": "20 g NaOH in 1000 g of solution",
+        "answer": "40 g NaOH in 1000 g of water"
+    },
+    {
+        "question": "5. Bees inject an acidic substance when they sting. Which of the following chemical could be used to treat bee stings?",
+        "optionA": "CH3COOH",
+        "optionB": "NaHCO3",
+        "optionC": "C2H5OH",
+        "optionD": "H2O2",
+        "answer": "NaHCO3"
+    },
+    {
+        "question": "6. The following substances are examples of addition polymer except",
+        "optionA": "nylon",
+        "optionB": "perspex",
+        "optionC": "polyethene",
+        "optionD": "polychloroethene",
+        "answer": "nylon"
+    },
+    {
+        "question": "7. The energy value of petrol can be determined by",
+        "optionA": "Bomb calorimeter",
+        "optionB": "Catalytic cracker",
+        "optionC": "Fractionating column",
+        "optionD": "Thermometer",
+        "answer": "Fractionating column"
+    },
+    {
+        "question": "8. The dissolution of common salt in water is a physical change because",
+        "optionA": "the salt can be obtained by crystallization",
+        "optionB": "the solution will not boil at 100 Degrees",
+        "optionC": "heat is not generated during mixing",
+        "optionD": "the salt can be recovered by the evaporation of water",
+        "answer": "the salt can be recovered by the evaporation of wate"
+    },
+    {
+        "question": "9. Hydrogen is not liberated when trioxonitrate(v)acid reacts with zinc because",
+        "optionA": "zinc is not rendered passive by acid",
+        "optionB": "trioxonitrate(v)acid is a strong acid",
+        "optionC": "all nitrates are soluble in wate",
+        "optionD": "oxides of nitrogen are produced",
+        "answer": "trioxonitrate(v)acid is a strong acid"
+    },
+    {
+        "question": "10. In a neutralization reaction involving HCI and NaOH using litmus as indicator, the colour at the end point is",
+        "optionA": "Blue",
+        "optionB": "Red",
+        "optionC": "Orange",
+        "optionD": "Purple",
+        "answer": "Purple"
+    }
+]

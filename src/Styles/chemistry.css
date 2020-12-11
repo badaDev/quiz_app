@@ -9,12 +9,12 @@
     width: 50%;
 }
 
-#eng_banner{
+#chm_banner{
     background-color: aliceblue;
     padding: 40px 20px;
 }
 
-.heading_3{
+.heading_6{
     padding-top: 0;
     color: rgb(71, 195, 236);
     font-size: 2rem;
@@ -52,13 +52,13 @@
     border: none !important;
 }
 
-.eng-footer{
+.chm-footer{
     height: 5.5rem;
     background-color: darkgray;
     /* padding: 3.2rem 1rem 3.2rem 0rem; */
     /* margin: 2rem 0rem 0rem 0rem; */
 }
-.eng-footer span{
+.chm-footer span{
     color: rgb(14, 116, 180);
     margin-top: 2rem;
     font-size: 1.2rem;
@@ -90,12 +90,12 @@ footer .text{
 
 /* for mobile screens */
 @media only screen and (max-width: 750px) {
-    #eng_banner{
+    #chm_banner{
         background-color: aliceblue;
         padding: 25px 20px;
     }
 
-    .heading_3{
+    .heading_6{
         padding-top: 0;
         color: rgb(71, 195, 236);
         font-size: 1.5rem;
@@ -129,13 +129,13 @@ footer .text{
     }
 
 
-    .eng-footer{
+    .chm-footer{
         height: 5rem;
         background-color: darkgray;
         /* padding: 2rem 1rem 2rem 0rem; */
         margin: 1rem 0rem 0rem 0rem;
     }
-    .eng-footer span{
+    .chm-footer span{
         color: rgb(14, 116, 180);
         margin-top: 1.5rem;
         font-size: 1rem;

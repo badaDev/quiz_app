@@ -4,18 +4,18 @@ import { Helmet } from 'react-helmet';
 import M from 'materialize-css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
-import '../Styles/english.css';
+import '../Styles/mathematics.css';
 import '../assets/fonts/fonts.css';
 import badaDev from '../assets/images/badaDev.png';
 import '../assets/font_awesome/css/font-awesome.min.css';
-import english from './questions/english.json';
+import mathematics from './questions/mathematics.json';
 
-class English extends React.Component {
+class Mathematics extends React.Component {
     constructor(props) {
         super(props)
     
         this.state = {
-            english,
+            mathematics,
             currentQuestion: {},
             nextQuestion: {},
             prevQuestion: {},
@@ -31,38 +31,32 @@ class English extends React.Component {
        this.interval = null
     }
     
-    // isEMpty = (value) => {
-    //    if (value === undefined ||
-    //     value === null ||
-    //     (typeof value === Object && Object.keys(value).length === 0) ||
-    //     (typeof value === String && value.trim().length === 0));
-    // }
 
-    displayQuestions = (english = this.state.english, currentQuestion, nextQuestion, prevQuestion) => {
+    displayQuestions = (mathematics = this.state.mathematics, currentQuestion, nextQuestion, prevQuestion) => {
         //destructure the currentQuestionIndex
         let { currentQuestionIndex } = this.state;
         //check if our question array is empty
-        if (this.state.english !== undefined || this.state.english !== null || (typeof this.state.english !== Object
-            && Object.keys(this.state.english).length !== 0) || (typeof this.state.english !== String
-                && this.state.english.trim().length !== 0)) {
-            english = this.state.english;
-            currentQuestion = english[currentQuestionIndex];
-            nextQuestion = english[currentQuestionIndex + 1];
-            prevQuestion = english[currentQuestionIndex - 1];
+        if (this.state.mathematics !== undefined || this.state.mathematics !== null || (typeof this.state.mathematics !== Object
+            && Object.keys(this.state.mathematics).length !== 0) || (typeof this.state.mathematics !== String
+                && this.state.mathematics.trim().length !== 0)) {
+            mathematics = this.state.mathematics;
+            currentQuestion = mathematics[currentQuestionIndex];
+            nextQuestion = mathematics[currentQuestionIndex + 1];
+            prevQuestion = mathematics[currentQuestionIndex - 1];
             const answer = currentQuestion.answer;
             //now we want to update our state
             this.setState({
                 currentQuestion,
                 nextQuestion,
                 prevQuestion,
-                numberofQuestion: english.length,
+                numberofQuestion: mathematics.length,
                 answer
             })
         }
     };
     componentDidMount() {
-        const { english, currentQuestion, nextQuestion, prevQuestion } = this.state;
-        this.displayQuestions(english, currentQuestion, nextQuestion, prevQuestion);
+        const { mathematics, currentQuestion, nextQuestion, prevQuestion } = this.state;
+        this.displayQuestions(mathematics, currentQuestion, nextQuestion, prevQuestion);
         this.startTimer();
     };
 
@@ -86,7 +80,7 @@ class English extends React.Component {
                 currentQuestionIndex: prevState.currentQuestionIndex + 1
             }), () => {
                 this.displayQuestions(
-                    this.state.english, 
+                    this.state.mathematics, 
                     this.state.currentQuestion, 
                     this.state.nextQuestion, 
                     this.state.prevQuestion); //calling this fxn here will display the next question
@@ -101,7 +95,7 @@ class English extends React.Component {
                 currentQuestionIndex: prevState.currentQuestionIndex - 1
             }), () => {
                 this.displayQuestions(
-                    this.state.english, 
+                    this.state.mathematics, 
                     this.state.currentQuestion, 
                     this.state.nextQuestion, 
                     this.state.prevQuestion); //calling this fxn here will display the next question
@@ -132,7 +126,7 @@ class English extends React.Component {
                 this.endGame();
             } else {
                 this.displayQuestions(
-                this.state.english, 
+                this.state.mathematics, 
                 this.state.currentQuestion, 
                 this.state.nextQuestion, 
                 this.state.prevQuestion); //calling this fxn here will display the next question    
@@ -156,7 +150,7 @@ class English extends React.Component {
                 this.endGame();
             } else {
                 this.displayQuestions(
-                this.state.english, 
+                this.state.mathematics, 
                 this.state.currentQuestion, 
                 this.state.nextQuestion, 
                 this.state.prevQuestion); //calling this fxn here will display the next question    
@@ -166,7 +160,7 @@ class English extends React.Component {
 
     //we call this function in the componentDidMount
     startTimer = () => {
-        const countDownTime = Date.now() + 180000;
+        const countDownTime = Date.now() + 600000;
         this.interval = setInterval(() => {
             //getting the current time
             const now = new Date();
@@ -228,8 +222,8 @@ class English extends React.Component {
         return (
             <div>
                 <Helmet><title>badaDev Quiz Portal</title></Helmet>
-                <div id="english">
-                    <div id="eng_banner" className="container-fluid">
+                <div id="mathematics">
+                    <div id="math_banner" className="container-fluid">
                         <div className="row">
                             <div className="col-md-6">
                                 <Link to='/'>
@@ -238,13 +232,13 @@ class English extends React.Component {
                             </div>
 
                             <div className="col-md-6">
-                                <h1 className="heading_3">Quiz Portal</h1>
+                                <h1 className="heading_5">Quiz Portal</h1>
                             </div>
                         </div>
                     </div>
 
                     <div className="container questions">
-                        <div className="container-fluid lifeline">
+                        <div className="container-fluid">
                             <div className="row">
                                 <div className="col-6">
                                     <span className="no_of-ques text-success">{currentQuestionIndex + 1} of 10</span>
@@ -289,7 +283,7 @@ class English extends React.Component {
                         </div>
                     </div>
 
-                    <footer className="container-fluid eng-footer">
+                    <footer className="container-fluid math-footer">
                         <div className="row">
                             <div className="col-12 text-right">
                                 <span className="fa fa-copyright"></span>
@@ -308,4 +302,4 @@ class English extends React.Component {
 
 
 
-export default English;
+export default Mathematics;

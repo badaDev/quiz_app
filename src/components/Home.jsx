@@ -76,7 +76,7 @@ class Home extends React.Component {
                                     </ul>
                                 </Modal.Body>
                                 <Modal.Footer>
-                                    <Link to="/subjects">
+                                    <Link to="/components/subjects">
                                         <Button>Continue</Button>
                                     </Link>
                                 </Modal.Footer>
