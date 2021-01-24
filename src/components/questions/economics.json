@@ -1,0 +1,82 @@
+[
+    {
+        "question": "1. Which of the following type of capital is not rewarded by means of dividends?", 
+        "optionA": "Ordinary shares", 
+        "optionB": "Debentures", 
+        "optionC": "Preference shares",
+        "optionD": "Cummulative shares",
+        "answer": "Debentures"
+    },
+    {
+        "question": "2. If a government wants to reduce the level of inflation, it will?", 
+        "optionA": "run a budget surplus", 
+        "optionB": "run a budget deficit", 
+        "optionC": "run a balanced budge",
+        "optionD": "borrow more money",
+        "answer": "borrow more money" 
+    },
+    {
+        "question": "3. The following are type of business organization EXCEPT",
+        "optionA": "co-operative society",
+        "optionB": "entrepreneurship",
+        "optionC": "partnership",
+        "optionD": "public corporation",
+        "answer": "entrepreneurship"
+    },
+    {
+        "question": "4. The privatization of public enterprises will lead to efficient management of resources in the economy. This statement can best be described as_____________",
+        "optionA": "deductive reasoning",
+        "optionB": "positive reasoning",
+        "optionC": "normative reasoning",
+        "optionD": "inductive reasoning",
+        "answer": "deductive reasoning"
+    },
+    {
+        "question": "5. The ultimate objectives of economics is to_________?",
+        "optionA": "decide under what circumstances that government should intervene in the economy",
+        "optionB": "organize production at the lowest cost",
+        "optionC": "make the best use of scarce resources",
+        "optionD": "make efforts to understands how the economy works",
+        "answer": "make the best use of scarce resources"
+    },
+    {
+        "question": "6. The basic economic problems of society include___________",
+        "optionA": "scarcity, for whom to produce and where",
+        "optionB": "what to produce, how and for whom",
+        "optionC": "scarcity, when to produce and how",
+        "optionD": "how to produce and sell",
+        "answer": "what to produce, how and for whom"
+    },
+    {
+        "question": "7. A limited liability company is owned by________________",
+        "optionA": "a bank",
+        "optionB": "an individual",
+        "optionC": "two or more partners",
+        "optionD": "share holders",
+        "answer": "share holders"
+    },
+    {
+        "question": "8. Given that Y = C + 1, where C = 50 + 0.75 and 1 = N45m, what is the equilibrium level of income?",
+        "optionA": "N20m",
+        "optionB": "N380m",
+        "optionC": "N200m",
+        "optionD": "N180m",
+        "answer": "N380m"
+    },
+    {
+        "question": "9. The full meaning of NAPEP is?",
+        "optionA": "National Poverty Eradication Programme",
+        "optionB": "National Agency for Poverty and Education Program",
+        "optionC": "National Air Pollution and Environmental Purification",
+        "optionD": "None of the above",
+        "answer": "National Poverty Eradication Programme"
+    },
+    {
+        "question": "10. When a union is composed of workers with the same skill , it is called____________",
+        "optionA": "An industrial union",
+        "optionB": "A workers union",
+        "optionC": "A craft union",
+        "optionD": "A technical union",
+        "answer": "A craft union"
+    }
+]

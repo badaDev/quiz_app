@@ -1,0 +1,82 @@
+[
+    {
+        "question": "1. What commodity is associated with OPEC?", 
+        "optionA": "Coffee", 
+        "optionB": "Iron and Steel", 
+        "optionC": "Vegetable oil",
+        "optionD": "Mineral oil",
+        "answer": "Mineral oil"
+    },
+    {
+        "question": "2. Which of the following countries has the least potential for the production of steel?", 
+        "optionA": "India", 
+        "optionB": "Cuba", 
+        "optionC": "Japan",
+        "optionD": "Germany",
+        "answer": "Cuba" 
+    },
+    {
+        "question": "3. Lake Kivu and Malawi are related in that they_________",
+        "optionA": "Lie in the Northern Hemisphere",
+        "optionB": "crater lakes",
+        "optionC": "Attract a large number of tourists",
+        "optionD": "the shoot was respiring and lost weight at rate of 1g per hour",
+        "answer": "Are rift valley lakes"
+    },
+    {
+        "question": "4. The oldest system of agriculture in Nigeria which now survives only in very remote areas is",
+        "optionA": "Crop rotation",
+        "optionB": "Mixed farming",
+        "optionC": "Shifting cultivation",
+        "optionD": "Market gardening",
+        "answer": "Shifting cultivation"
+    },
+    {
+        "question": "5. British foreign investments are concentrated in",
+        "optionA": "EU countries",
+        "optionB": "Commonwealth countries",
+        "optionC": "Developed countries",
+        "optionD": "Asian countries",
+        "answer": "Commonwealth countries"
+    },
+    {
+        "question": "6. A type of land-form that is associated with large scale orogeny is a",
+        "optionA": "Fold mountain",
+        "optionB": "Residual mountain",
+        "optionC": "Block mountain",
+        "optionD": "Volcanic mountain",
+        "answer": "Fold mountain"
+    },
+    {
+        "question": "7. The plains formed when the slopes of mountains are worn back in arid and semi-arid regions my mechanical weathering is called_______",
+        "optionA": "Alluvial plains",
+        "optionB": "Outwash plains",
+        "optionC": "Pediplains",
+        "optionD": "Savanna plains",
+        "answer": "Pediplains"
+    },
+    {
+        "question": "8. One of the following is associated with wind deflation in arid region_________",
+        "optionA": "Barchan",
+        "optionB": "Yardang",
+        "optionC": "Rock pedestals",
+        "optionD": "Oasis",
+        "answer": "Yardang"
+    },
+    {
+        "question": "9. A feature commonly found in the youthful stage of a river is",
+        "optionA": "Levee",
+        "optionB": "Meander",
+        "optionC": "Ox-bow lake",
+        "optionD": "Interlocking spurs",
+        "answer": "Interlocking spurs"
+    },
+    {
+        "question": "10. The extent of coastal erosion depends on the",
+        "optionA": "amount of fresh water supplied by tributaries",
+        "optionB": "depth of ocean water",
+        "optionC": "salinity of the ocean",
+        "optionD": "nature of the waves",
+        "answer": "amount of fresh water supplied by tributaries"
+    }
+]

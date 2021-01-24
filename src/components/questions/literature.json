@@ -1,0 +1,82 @@
+[
+    {
+        "question": "1. Romeo and Juliet is a tragedy because", 
+        "optionA": "it is full of noblemen and ladies", 
+        "optionB": "it is set in Verona", 
+        "optionC": "it ends unhappily",
+        "optionD": "it has five acts",
+        "answer": "it ends unhappily"
+    },
+    {
+        "question": "2. A literary work in which the characters and events are used as symbols is known as _________?", 
+        "optionA": "characteristics", 
+        "optionB": "allegory", 
+        "optionC": "metaphor",
+        "optionD": "parallelism",
+        "answer": "allegory" 
+    },
+    {
+        "question": "3. Drama is the representation of a complete series of actions by means of _________",
+        "optionA": "movement and gesture for the screen and audience",
+        "optionB": "speech, movement and gesture for the stage only",
+        "optionC": "speech, movement and gesture for the stage, screen and radio",
+        "optionD": "speech, gesture and movement for the screen and radio",
+        "answer": "speech, movement and gesture for the stage, screen and radio"
+    },
+    {
+        "question": "4. Which of these is the meaning of “CAST”?",
+        "optionA": "a list of all characters in a drama", 
+        "optionB": "what the character is saying",
+        "optionC": "the person who writes the drama",
+        "optionD": "a list of protagonists in a drama",
+        "answer": "a list of all characters in a drama"
+    },
+    {
+        "question": "5. This element shows how sections are separated into parts with numbers and titles_____________",
+        "optionA": "Paragraph",
+        "optionB": "Theme",
+        "optionC": "Chapters",
+        "optionD": "Characters",
+        "answer": "Chapters"
+    },
+    {
+        "question": "6. A folk-tale is a__________?",
+        "optionA": "Novel",
+        "optionB": "Biography",
+        "optionC": "Work Of Fiction",
+        "optionD": "Novelette",
+        "answer": "Work Of Fiction"
+    },
+    {
+        "question": "7. Tell me not, sweet, I am unkind' illustrates_________",
+        "optionA": "inversion",
+        "optionB": "paradox",
+        "optionC": "humor",
+        "optionD": "mood",
+        "answer": "paradox"
+    },
+    {
+        "question": "8. Define 'rhyme'?",
+        "optionA": "comparing two things sounds",
+        "optionB": "the repetition of a letter",
+        "optionC": "the repetition of an ending sound",
+        "optionD": "the repetition of vowel sounds",
+        "answer": "the repetition of an ending sound"
+    },
+    {
+        "question": "9. A Sonnet has a final couplet when it has___________",
+        "optionA": "A sestet",
+        "optionB": "An octave",
+        "optionC": "Two sestets",
+        "optionD": "Three quatrains",
+        "answer": "Three quatrains"
+    },
+    {
+        "question": "10. A short play perfomed during the pause between the acts of a longer play is____________",
+        "optionA": "An Interlude",
+        "optionB": "An epilogue",
+        "optionC": "A prologue",
+        "optionD": "An interval",
+        "answer": "An Interlude"
+    }
+]

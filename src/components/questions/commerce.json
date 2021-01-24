@@ -1,0 +1,82 @@
+[
+    {
+        "question": "1. The major source of income to commercial banks is?", 
+        "optionA": "tourism", 
+        "optionB": "banking", 
+        "optionC": "communication",
+        "optionD": "transportation",
+        "answer": "banking"
+    },
+    {
+        "question": "2. Dupe agreed to make a dress for Lolade with January 1, 2020 as the delivery date. If the dress was not ready at that date, Lolade could", 
+        "optionA": "Seize another gown from Dupe's shop", 
+        "optionB": "Regard the contract between them as terminated", 
+        "optionC": "Sue Dupe for specific performance",
+        "optionD": "Sue Dupe for damages",
+        "answer": "Regard the contract between them as terminated" 
+    },
+    {
+        "question": "3. ------------------- is a source of short term capital?",
+        "optionA": "Overdraft",
+        "optionB": "Shares",
+        "optionC": "Debenture",
+        "optionD": "Leasing",
+        "answer": "Overdraft"
+    },
+    {
+        "question": "4. An organization which focuses on consumers satisfaction is practicing",
+        "optionA": "Marketing concepts",
+        "optionB": "Selling concepts",
+        "optionC": "Consumerism",
+        "optionD": "Market segmentation",
+        "answer": "Marketing concepts"
+    },
+    {
+        "question": "5. Why will a cheque be dishonored?",
+        "optionA": "Regular signature",
+        "optionB": "high amount of money written on the cheque",
+        "optionC": "insufficient funds",
+        "optionD": "general crossing",
+        "answer": "insufficient funds"
+    },
+    {
+        "question": "6. The elements in marketing mix that ensures goods are available when and where needed is",
+        "optionA": "Promotion",
+        "optionB": "price",
+        "optionC": "product",
+        "optionD": "place",
+        "answer": "place"
+    },
+    {
+        "question": "7. What’s the first form an applicant must complete before taking an insurance policy?",
+        "optionA": "Cover note",
+        "optionB": "advice note",
+        "optionC": "proposal form",
+        "optionD": "certificate of insurance",
+        "answer": "proposal form"
+    },
+    {
+        "question": "8. Rights issue means the?",
+        "optionA": "issue of shares to the directors of a company",
+        "optionB": "issue of shares by a company only to the founders of the company",
+        "optionC": "right of shareholders to vote on any issue",
+        "optionD": "issue of shares to shareholders on favorable terms",
+        "answer": "issue of shares by a company only to the founders of the company"
+    },
+    {
+        "question": "9. When it becomes necessary to liquidate a company, the first step to be taken is the appointment of a?",
+        "optionA": "a receiver",
+        "optionB": "an auditor",
+        "optionC": "an account",
+        "optionD": "a liquidator",
+        "answer": "a liquidator"
+    },
+    {
+        "question": "10. Transportation, retailing and wholesaling industries rely heavily on?",
+        "optionA": "banking",
+        "optionB": "insurance",
+        "optionC": "manufacturing",
+        "optionD": "railway",
+        "answer": "manufacturing"
+    }
+]

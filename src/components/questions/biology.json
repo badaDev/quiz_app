@@ -1,0 +1,82 @@
+[
+    {
+        "question": "1. One of the function of xylem is", 
+        "optionA": "strengthening the stem", 
+        "optionB": "manufacturing food", 
+        "optionC": "reducing loss of water",
+        "optionD": "storing unused sugar",
+        "answer": "strengthening the stem"
+    },
+    {
+        "question": "2. The study of organism and the environment of an abandoned farmland is the ecology of?", 
+        "optionA": "a community", 
+        "optionB": "an ecosystem", 
+        "optionC": "a habitat",
+        "optionD": "a population",
+        "answer": "an ecosystem" 
+    },
+    {
+        "question": "3. A potometer with a leafy shoot weighed 18.9g initially and weighed 17.9g after one hour. From this it follow that",
+        "optionA": "the shoot absorbed 1g of water per hour",
+        "optionB": "1g of water per hour evaporates from the potometer",
+        "optionC": "the shoot lost 1g of water per hour",
+        "optionD": "the shoot was respiring and lost weight at rate of 1g per hour",
+        "answer": "the shoot lost 1g of water per hour"
+    },
+    {
+        "question": "4. The mammalian stomach can carry out a number of processes except",
+        "optionA": "absorption of glucose",
+        "optionB": "secretion of hydrochloric acid",
+        "optionC": "secretion gastric juice",
+        "optionD": "production of trypsin",
+        "answer": "production of trypsin"
+    },
+    {
+        "question": "5. Which of these products obtained from analyzing sweat from skin is not an excretory product?",
+        "optionA": "water",
+        "optionB": "Salts",
+        "optionC": "Dust",
+        "optionD": "Urea",
+        "answer": "Dust"
+    },
+    {
+        "question": "6. The pedipalps in spiders are used for",
+        "optionA": "grasping",
+        "optionB": "walking",
+        "optionC": "feeling",
+        "optionD": "web spinning",
+        "answer": "grasping"
+    },
+    {
+        "question": "7. In corms, food is usually stored in the",
+        "optionA": "leaves",
+        "optionB": "stems",
+        "optionC": "roots",
+        "optionD": "buds",
+        "answer": "stems"
+    },
+    {
+        "question": "8. Which is NOT an effect of the food shortage on a population?",
+        "optionA": "Cannibalism",
+        "optionB": "Competition",
+        "optionC": "Increase in mortality",
+        "optionD": "Increase in natality",
+        "answer": "Increase in natality"
+    },
+    {
+        "question": "9. The feeding relationship among a set of members of a community is referred to as _______?",
+        "optionA": "a food chain",
+        "optionB": "pyramid of energy",
+        "optionC": "a food web",
+        "optionD": "pyramid of member",
+        "answer": "a food chain"
+    },
+    {
+        "question": "10. The cytoplasm of a cell is considered a very important component because it",
+        "optionA": "regulates the amount of energy in the cell",
+        "optionB": "suspends all cell organelles",
+        "optionC": "is the outermost part of the cell",
+        "optionD": "is solely responsible for cell division",
+        "answer": "suspends all cell organelles"
+    }
+]

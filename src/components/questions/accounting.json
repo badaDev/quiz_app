@@ -1,0 +1,82 @@
+[
+    {
+        "question": "1. An example of a credit entry in a profit and loss account is", 
+        "optionA": "carriage inwards", 
+        "optionB": "carriage outwards", 
+        "optionC": "discounts allowed",
+        "optionD": "discounts received",
+        "answer": "discounts received"
+    },
+    {
+        "question": "2. Which of the following items is not contained in the Receipts and Payments Account?", 
+        "optionA": "subscription paid in advance", 
+        "optionB": "stock paid for in advance", 
+        "optionC": "outstanding wages and salaries",
+        "optionD": "donations",
+        "answer": "stock paid for in advance" 
+    },
+    {
+        "question": "3. A petty cash account has an imprest of D28,000. The account has a debit balance of D5,000. How much cash is needed to restore the imprest?",
+        "optionA": "D33,000",
+        "optionB": "D28,000",
+        "optionC": "D23,000",
+        "optionD": "D5,000",
+        "answer": "D23,000"
+    },
+    {
+        "question": "4. The concept that states that a business should not lay claim to any profits before it is earned with reasonable certainty is",
+        "optionA": "constitency concept",
+        "optionB": "prudence concept",
+        "optionC": "accrual concept",
+        "optionD": "going corncern cocept",
+        "answer": "accrual concept"
+    },
+    {
+        "question": "5. The document prepared by a local/district government to present its annual estimates for a planning period is",
+        "optionA": "a balance sheet",
+        "optionB": "a budget",
+        "optionC": "an income and expendiure account",
+        "optionD": "a cash book",
+        "answer": "a budget"
+    },
+    {
+        "question": "6. A collection of fields relating to one logically definable unit of business information is known as",
+        "optionA": "database",
+        "optionB": "character",
+        "optionC": "byte",
+        "optionD": "record",
+        "answer": "database"
+    },
+    {
+        "question": "7. The accounting principle that states that, In the preparation of account statements, revenues are recognized as soon as goods is passed on to the customer is the",
+        "optionA": "materiality concept",
+        "optionB": "matching concept",
+        "optionC": "constitiency concept",
+        "optionD": "realization concept",
+        "answer": "realization concept"
+    },
+    {
+        "question": "8. When a business is purchased from a sole trader, the excess of the purchase price over the net assets is",
+        "optionA": "reserve",
+        "optionB": "goodwill",
+        "optionC": "feehold",
+        "optionD": "valuation price",
+        "answer": "goodwill"
+    },
+    {
+        "question": "9. The basic assumption which underline the preparation of periodic financial statement is known as accounting",
+        "optionA": "bases",
+        "optionB": "techniques",
+        "optionC": "concepts",
+        "optionD": "method",
+        "answer": "concepts"
+    },
+    {
+        "question": "10. In accounting context, purchases refer to",
+        "optionA": "Goods bought for resale only",
+        "optionB": "Goods bought and paid only",
+        "optionC": "Goods bought on credit only",
+        "optionD": "Goods bought to be used in the firm",
+        "answer": "Goods bought for resale only"
+    }
+]

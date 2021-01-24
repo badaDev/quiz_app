@@ -7,6 +7,8 @@ import English from './components/English';
 import Mathematics from './components/Mathematics';
 import Chemistry from './components/Chemistry';
 import Quiz_Score from './components/Quiz_Score';
+import Physics from './components/Physics';
+import Biology from './components/Biology';
 
 class App extends Component {
   constructor() {
@@ -25,6 +27,8 @@ class App extends Component {
         <Route path="/components/english" component={English} />
         <Route path="/components/mathematics" component={Mathematics} />
         <Route path="/components/chemistry" component={Chemistry} />
+        <Route path="/components/physics" component={Physics} />
+        <Route path="/components/biology" component={Biology} />
         <Route path="/components/quiz_score" component={Quiz_Score} />
       </Router>
     )

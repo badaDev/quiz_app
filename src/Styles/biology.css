@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.myLogo{
+    width: 50%;
+}
+
+#bio_banner{
+    background-color: aliceblue;
+    padding: 40px 20px;
+}
+
+.heading_8{
+    padding-top: 0;
+    color: rgb(71, 195, 236);
+    font-size: 2rem;
+    font-family: 'Wendy One', sans-serif;
+}
+
+.questions{
+    background-color: azure;
+    margin: 2.22% auto;
+    padding: 2% 0;
+    height: 350px;
+}
+
+.questions_container h5{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+
+.options{
+    text-align: center;
+    background-color: rgb(39, 179, 184);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+.options:hover{
+    background-color: rgb(7, 110, 114);;
+}
+
+.btn-container button{
+    border: none !important;
+}
+
+.bio-footer{
+    height: 5.5rem;
+    background-color: darkgray;
+    /* padding: 3.2rem 1rem 3.2rem 0rem; */
+    /* margin: 2rem 0rem 0rem 0rem; */
+}
+.bio-footer span{
+    color: rgb(14, 116, 180);
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+footer .text{
+    font-family: 'Anton' !important;
+}
+.toast-valid{
+    background-color: #4caf50;
+    position: absolute;
+    z-index: 1000000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+.toast-invalid{
+    background-color:#f44336;
+    position: absolute;
+    z-index: 1000000;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+
+
+/* for mobile screens */
+@media only screen and (max-width: 750px) {
+    #eng_banner{
+        background-color: aliceblue;
+        padding: 25px 20px;
+    }
+
+    .heading_3{
+        padding-top: 0;
+        color: rgb(71, 195, 236);
+        font-size: 1.5rem;
+        font-family: 'Wendy One', sans-serif;
+    }
+
+    .questions{
+        background-color: azure;
+        margin: 3% auto;
+        padding: 2% 0;
+        height: 423px;
+    }
+
+    .questions_container h5{
+        font-family: 'Roboto Slab', serif;
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin: 6px auto;
+        line-height: 1.5;
+    }
+
+    .options{
+        text-align: center;
+        background-color: rgb(39, 179, 184);
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        font-size: 0.8rem;
+        width: 100% !important;
+        margin: 5px auto !important;
+    }
+
+
+    .bio-footer{
+        height: 5rem;
+        background-color: darkgray;
+        /* padding: 2rem 1rem 2rem 0rem; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    .bio-footer span{
+        color: rgb(14, 116, 180);
+        margin-top: 1.5rem;
+        font-size: 1rem;
+    }
+    
+}

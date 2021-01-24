@@ -1,0 +1,82 @@
+[
+    {
+        "question": "1. Members of a society are expected to adhere to societal values for the following reasons except?", 
+        "optionA": "enhancement of development", 
+        "optionB": "Improvement of self dignity", 
+        "optionC": "reduction of social vices",
+        "optionD": "relegation of morality",
+        "answer": "relegation of morality"
+    },
+    {
+        "question": "2. The defence of the territorial integrity of a country by her people is part of?", 
+        "optionA": "political participation", 
+        "optionB": "political culture", 
+        "optionC": "self determination",
+        "optionD": "duties and obligation",
+        "answer": "duties and obligation" 
+    },
+    {
+        "question": "3. A program established to foster common ties among Nigerians is",
+        "optionA": "Subsidy Re-investment Program (SURE-P)",
+        "optionB": "National Youth Service Corps (NYSC)",
+        "optionC": "Universal Basic Education (UBE)",
+        "optionD": "Education Trust Fund (ETF)",
+        "answer": "National Youth Service Corps (NYSC)"
+    },
+    {
+        "question": "4. A common repercussion for drug abuse is?",
+        "optionA": "medication",
+        "optionB": "rehabilitation",
+        "optionC": "brain drain",
+        "optionD": "memory loss",
+        "answer": "brain drain"
+    },
+    {
+        "question": "5. Which of the following is a way of preventing drug traficking?",
+        "optionA": "foreign scholarship",
+        "optionB": "employment",
+        "optionC": "motivation",
+        "optionD": "indulging offenders",
+        "answer": "employment"
+    },
+    {
+        "question": "6. Which of the following is not a  form of stigmatization",
+        "optionA": "refusal to interact with family of an HIV patient",
+        "optionB": "physical and verbal abuse of an HIV patient",
+        "optionC": "enlightening people living with HIV/AIDS",
+        "optionD": "ostracizing HIV patients",
+        "answer": "enlightening people living with HIV/AIDS"
+    },
+    {
+        "question": "7. In a democratic government, franchise is given to all",
+        "optionA": "party members",
+        "optionB": "adult citizens",
+        "optionC": "resident adults",
+        "optionD": "opinion leaders",
+        "answer": "adult citizens"
+    },
+    {
+        "question": "8. A significant companion of the rule of law is the",
+        "optionA": "fusion of legislative and executive functions",
+        "optionB": "adoption of one party system",
+        "optionC": "enforcement of law by the legislature",
+        "optionD": "supremacy of the ordinary law",
+        "answer": "supremacy of the ordinary law"
+    },
+    {
+        "question": "9. Operation of the rule of law could be undermined by?",
+        "optionA": "existence of civil society groups",
+        "optionB": "existence of free press",
+        "optionC": "establishment of administrative tribunal",
+        "optionD": "encouragement of effective opposition",
+        "answer": "establishment of administrative tribunal"
+    },
+    {
+        "question": "10. The smooth operation of the public service in Nigeria is being hampered by",
+        "optionA": "debt burden",
+        "optionB": "adequate training",
+        "optionC": "privatization",
+        "optionD": "bribery and corruption",
+        "answer": "bribery and corruption"
+    }
+]

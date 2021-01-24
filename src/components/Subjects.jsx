@@ -49,44 +49,16 @@ class Subjects extends React.Component {
                                 <div className="col-md-4">
                                     <ul>
                                         <li className="subject_list">
-                                            <Link className="subject_link" onClick={() => {this.handleModal()}}>English</Link>
-                                            <Modal show={this.state.show}>
-                                                <Modal.Header>
-                                                        <h3 className="modal-head">Instructions</h3>
-                                                        <Button onClick={() => {this.closeModal()}}>&times;</Button>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <p>You have 3 minutes to finish this quiz</p>
-                                                </Modal.Body>
-                                                <Modal.Footer>
-                                                    <Link  to="/components/english">
-                                                        <Button>Start Quiz</Button>
-                                                    </Link>
-                                                </Modal.Footer>
-                                            </Modal>
+                                            <Link to="/components/english" className="subject_link">English</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link className="subject_link" onClick={() => {this.handleModal()}}>Mathematics</Link>
-                                            <Modal show={this.state.show}>
-                                                <Modal.Header>
-                                                        <h3 className="modal-head">Instructions</h3>
-                                                        <Button onClick={() => {this.closeModal()}}>&times;</Button>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <p>You have 10 minutes to finish this quiz</p>
-                                                </Modal.Body>
-                                                <Modal.Footer>
-                                                    <Link  to="/components/mathematics">
-                                                        <Button>Start Quiz</Button>
-                                                    </Link>
-                                                </Modal.Footer>
-                                            </Modal>
+                                            <Link to="/components/mathematics" className="subject_link">Mathematics</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/physics" className="subject_link">Physics</Link>
+                                            <Link to="/components/physics" className="subject_link">Physics</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/biology" className="subject_link">Biology</Link>
+                                            <Link to="/components/biology" className="subject_link">Biology</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,30 +66,16 @@ class Subjects extends React.Component {
                                 <div className="col-md-4">
                                     <ul>
                                         <li className="subject_list">
-                                            <Link onClick={() => {this.handleModal()}} className="subject_link">Chemistry</Link>
-                                            <Modal show={this.state.show}>
-                                                <Modal.Header>
-                                                        <h3 className="modal-head">Instructions</h3>
-                                                        <Button onClick={() => {this.closeModal()}}>&times;</Button>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <p>You have 5 minutes to finish this quiz</p>
-                                                </Modal.Body>
-                                                <Modal.Footer>
-                                                    <Link  to="/components/chemistry">
-                                                        <Button>Start Quiz</Button>
-                                                    </Link>
-                                                </Modal.Footer>
-                                            </Modal>
+                                            <Link to="/components/chemistry" className="subject_link">Chemistry</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/literature" className="subject_link">Literature in English</Link>
+                                            <Link to="/components/literature" className="subject_link">Literature in English</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/government" className="subject_link">Government</Link>
+                                            <Link to="/components/government" className="subject_link">Government</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/history" className="subject_link">History</Link>
+                                            <Link to="/components/history" className="subject_link">History</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -125,16 +83,16 @@ class Subjects extends React.Component {
                                 <div className="col-md-4">
                                     <ul>
                                         <li className="subject_list">
-                                            <Link to="/accounting" className="subject_link">Principles of Accounting</Link>
+                                            <Link to="/components/accounting" className="subject_link">Principles of Accounting</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/commerce" className="subject_link">Commerce</Link>
+                                            <Link to="/components/commerce" className="subject_link">Commerce</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/economicst" className="subject_link">Economics</Link>
+                                            <Link to="/components/economicst" className="subject_link">Economics</Link>
                                         </li>
                                         <li className="subject_list">
-                                            <Link to="/civic" className="subject_link">Civic Education</Link>
+                                            <Link to="/components/civic_education" className="subject_link">Civic Education</Link>
                                         </li>
                                     </ul>
                                 </div>
