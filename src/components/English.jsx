@@ -6,7 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button } from 'react-bootstrap';
 import '../Styles/english.css';
 import '../assets/fonts/fonts.css';
-import badaDev from '../assets/images/badaDev.png';
+// import badaDev from '../assets/images/badaDev.png';
+import spakxx from '../assets/images/SPAKXX LOGO.png'
 import '../assets/font_awesome/css/font-awesome.min.css';
 import english from './questions/english.json';
 
@@ -233,7 +234,7 @@ class English extends React.Component {
                         <div className="row">
                             <div className="col-md-6">
                                 <Link to='/'>
-                                    <img src={badaDev} className="w-25" alt=""/>
+                                    <img src={spakxx} className="w-25" alt=""/>
                                 </Link>
                             </div>
 

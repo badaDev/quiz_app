@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, Button } from 'react-bootstrap'
 import '../Styles/subjects.css'
 import '../assets/fonts/fonts.css'
-import badaDev from '../assets/images/badaDev.png'
+// import badaDev from '../assets/images/badaDev.png'
+import spakxx from '../assets/images/SPAKXX LOGO.png'
 
 
 class Subjects extends React.Component {
@@ -34,7 +35,7 @@ class Subjects extends React.Component {
                             <div className="row">
                                 <div className="col-md-6">
                                     <Link to='/'>
-                                        <img src={badaDev} className="w-25" alt=""/>
+                                        <img src={spakxx} className="w-25" alt=""/>
                                     </Link>
                                 </div>
 

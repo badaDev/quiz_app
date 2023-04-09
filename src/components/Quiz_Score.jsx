@@ -6,7 +6,8 @@ import { Button } from 'react-bootstrap';
 import '../Styles/quiz_score.css';
 import '../assets/font_awesome/css/font-awesome.min.css';
 import '../assets/fonts/fonts.css';
-import badaDev from '../assets/images/badaDev.png';
+// import badaDev from '../assets/images/badaDev.png';
+import spakxx from '../assets/images/SPAKXX LOGO.png'
 import '../assets/font_awesome/css/font-awesome.min.css';
 
 
@@ -140,7 +141,7 @@ componentDidMount() {
                         <div className="row">
                             <div className="col-md-6">
                                 <Link to='/'>
-                                    <img src={badaDev} className="w-25" alt=""/>
+                                    <img src={spakxx} className="w-25" alt=""/>
                                 </Link>
                             </div>
 
