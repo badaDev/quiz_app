@@ -283,14 +283,14 @@ class Chemistry extends React.Component {
                         </div>
                     </div>
 
-                    <footer className="container-fluid chm-footer">
+                    {/* <footer className="container-fluid chm-footer">
                         <div className="row">
                             <div className="col-12 text-right">
                                 <span className="fa fa-copyright"></span>
                                 <span>Designed by badaDev</span>
                             </div>
                         </div>
-                    </footer>
+                    </footer> */}
 
 
                 </div>
