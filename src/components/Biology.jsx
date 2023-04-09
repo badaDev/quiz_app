@@ -227,7 +227,7 @@ class Biology extends React.Component {
         } = this.state;
         return (
             <div>
-                <Helmet><title>badaDev Quiz Portal</title></Helmet>
+                <Helmet><title>Spakxx Exam Portal</title></Helmet>
                 <div id="biology">
                     <div id="bio_banner" className="container-fluid">
                         <div className="row">

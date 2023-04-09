@@ -221,7 +221,7 @@ class Chemistry extends React.Component {
         } = this.state;
         return (
             <div>
-                <Helmet><title>badaDev Quiz Portal</title></Helmet>
+                <Helmet><title>Spakxx Exam Portal</title></Helmet>
                 <div id="chemistry">
                     <div id="chm_banner" className="container-fluid">
                         <div className="row">

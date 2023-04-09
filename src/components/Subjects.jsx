@@ -28,7 +28,7 @@ class Subjects extends React.Component {
     render() {
         return (
                 <div>
-                    <Helmet><title>badaDev Quiz Portal</title></Helmet>
+                    <Helmet><title>Spakxx Exam Portal</title></Helmet>
                     <div id="subjects">
                         <div id="banner" className="container-fluid">
                             <div className="row">

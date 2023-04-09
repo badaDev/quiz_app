@@ -227,7 +227,7 @@ class English extends React.Component {
         } = this.state;
         return (
             <div>
-                <Helmet><title>badaDev Quiz Portal</title></Helmet>
+                <Helmet><title>Spakxx Exam Portal</title></Helmet>
                 <div id="english">
                     <div id="eng_banner" className="container-fluid">
                         <div className="row">

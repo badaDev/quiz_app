@@ -5,7 +5,8 @@ import { Modal, Button } from 'react-bootstrap'
 import { Helmet } from 'react-helmet'
 import '../Styles/home.css'
 import '../assets/fonts/fonts.css'
-import badaDev from '../assets/images/badaDev.png'
+// import badaDev from '../assets/images/badaDev.png'
+import spakxx from '../assets/images/SPAKXX LOGO.png'
  
 
 class Home extends React.Component {
@@ -28,15 +29,15 @@ class Home extends React.Component {
     render() {
         return( 
             <div>
-                <Helmet><title>badaDev Quiz Portal</title></Helmet>
+                <Helmet><title>Spakxx Exam Portal</title></Helmet>
                 <div id="home">
                     <section>
                         <div>
-                            <img src={badaDev} className="myLogo" alt="Logo"/>
+                            <img src={spakxx} className="myLogo" alt="Logo"/>
                         </div>
 
                         <div>
-                            <h3 className="heading">Quiz Portal</h3>
+                            <h3 className="heading">Exam Portal</h3>
                         </div>
 
                         <div>               
@@ -84,10 +85,10 @@ class Home extends React.Component {
 
                             <ul>
                                 <li className="home_list">
-                                    <Link to="/login" className="nav-link btn btn-lg text-white login-btn">Login</Link>
+                                    <Link to="#" className="nav-link btn btn-lg text-white login-btn">Login</Link>
                                 </li>
                                 <li className="home_list">
-                                    <Link to="/sign_up" className="nav-link btn btn-lg text-white signup-btn">Sign Up</Link>
+                                    <Link to="#" className="nav-link btn btn-lg text-white signup-btn">Sign Up</Link>
                                 </li>
                             </ul>
 
